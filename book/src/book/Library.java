@@ -44,5 +44,31 @@ public class Library {
 		return null;
 	}
 	
-	public 
+	public static double getAverageBookPrice(Book[] books) {
+		double sum = 0;
+		for (Book b : books) {
+			sum += b.getPrice();
+		}
+		return sum/books.length;
+	}
+	
+	public static String bookStartsWith(Book[] books, String startsWithText) {
+		String infostring = "";
+		for (Book b : books) {
+			if (b.getTitle().startsWith(startsWithText)) {
+				infostring += b.toString() + "\n";
+			}
+		}
+		return infostring;
+	}
+	
+	public static String storeBook(Book[] books, Book newBook) {
+		for (int i=0;i<books.length;i++) {
+			if (books[i] == null) {
+				books[i] = newBook;
+				return "Sucessfully placed book in index " + i;
+			}
+		}
+		return "Your book could not be stored due to not being enough space";
+	}
 }
