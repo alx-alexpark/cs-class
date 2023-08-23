@@ -9,8 +9,6 @@ public class Library {
 		books[2] = new Book("Talking to strangers", "Malcomn Gladwell", 42.0);
 		books[3] = new Book("Three women", "Lisa Taddeo", 17.0);
 		books[4] = new Book("Catch and kill", "Ronan Farrow", 25.0);
-	
-		
 	}
 	
 	public static int booksMoreExpensiveThan(Book[] books, double limit) {
@@ -37,7 +35,7 @@ public class Library {
 	
 	public static String getAuthorOfBookByTitle(Book[] books, String bookTitle) {
 		for (Book b : books) {
-			if (b.getTitle() = bookTitle) {
+			if (b.getTitle() == bookTitle) {
 				return b.getAuthor();
 			}
 		}
