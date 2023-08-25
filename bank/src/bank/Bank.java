@@ -5,7 +5,7 @@ public class Bank {
 		Account[] accounts = new Account[5];
 		accounts[0] = new Account("A", "A1", 2.0);
 		accounts[1] = new Account("B", "A2", 29.0);
-		accounts[2] = new Account("C", "A3", 21.0);
+		accounts[2] = new Account("C", "A3", 3000.0);
 		accounts[3] = new Account("D", "A4", 5000);
 		accounts[4] = new Account("E", "A5", 15.0);
 		
@@ -18,7 +18,7 @@ public class Bank {
 			System.out.println(a.toString());
 		}
 		
-		System.out.println(mostValueableAccount(accounts));
+		System.out.println(mostValueableAccountBalance(accounts));
 		System.out.println(richestPerson(accounts));
 		System.out.println(numAccountsWithMoreThan1500Dollars(accounts));
 		System.out.println(accountWithLeastMoney(accounts));
@@ -26,7 +26,7 @@ public class Bank {
 		
 	}
 	
-	public static double mostValueableAccount(Account[] accounts) {
+	public static double mostValueableAccountBalance(Account[] accounts) {
 		double max = accounts[0].getBalance();
 		for (Account a : accounts) {
 			if (a.getBalance() > max) {
