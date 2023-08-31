@@ -1,0 +1,8 @@
+Billy Bobby
+English 80
+Spanish 90
+Math 93
+History 64
+CompSci 100
+Band 53
+Science 98
