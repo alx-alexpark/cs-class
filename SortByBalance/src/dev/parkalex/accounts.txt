@@ -1,0 +1,16 @@
+15
+Tom Smith 3438.00
+Todd Hall 1249.00
+Ralph Nader 2397.00
+Maria Gonzales 4570.00
+Jacob Gibson 580.00
+Andy Baker 1600.00
+Suzan Jackson 48.00
+Michael Buchanan 2900.00
+Tracy Seles 963.00
+Sarah Sharapova 3270.00
+Isabella Guerra 1600.00
+Laci Killian 4320.00
+Angie Hough 4570.00
+Savanah Delgado 1190.00
+Cole Elington 1600.00
